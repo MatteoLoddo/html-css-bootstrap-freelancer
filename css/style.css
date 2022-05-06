@@ -47,6 +47,8 @@
 }
 
 .nav-bar-link-cont a{
+    padding: .5rem;
+    display: inline-block;
     text-decoration: none;
     color: #ffff;
 }
@@ -60,7 +62,6 @@
 }
 
 
-.svg-cont-navbar{
-    width: 24px;
-    border: 1px solid black;
+.svg-cont-navbar svg{
+    width: 24px
 }
