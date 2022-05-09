@@ -4,8 +4,9 @@
 *******************************/
 :root{
     --bs-primary:#1ABC9C;
-    --bs-primary-rgb: 26, 188, 156;
+    /* --bs-primary-rgb:rgb(26, 188, 156,); */
 
+    --bg-primary-dark: rgb(21, 155, 128);
 
     --txt-color-light:#ffff;
     --bg-footer-primary:#3A546D;
@@ -31,7 +32,6 @@
 
 .bg-primary{
     background-color: var(--bs-primary);
-
 }
 .nav-bar-link-cont a{
     padding: .5rem;
@@ -65,7 +65,7 @@
     aspect-ratio: 1/1;
 }
 
-.star-svg div svg{
+.star-svg div svg, .btn svg{
     width: 25px;
     aspect-ratio: 1/1;
 }
@@ -87,4 +87,18 @@
 .form-control:focus{
     border-color: var(--bs-primary);
     box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, .25)
+}
+
+.section{
+    padding: 3rem;
+}
+
+.btn-outline-primary{
+    color: var(--txt-color-light);
+    border-color: var(--txt-color-light);
+}
+
+.btn-outline-primary:hover{
+    border-color: var(--txt-color-light);
+    background-color: var(--bs-primary-dark);
 }
