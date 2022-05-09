@@ -4,9 +4,9 @@
 *******************************/
 :root{
     --bs-primary:#1ABC9C;
-    /* --bs-primary-rgb:rgb(26, 188, 156,); */
+    --bs-primary-rgb:26, 188, 156;
 
-    --bg-primary-dark: rgb(21, 155, 128);
+    --bg-primary-dark:21, 155, 128;
 
     --txt-color-light:#ffff;
     --bg-footer-primary:#3A546D;
