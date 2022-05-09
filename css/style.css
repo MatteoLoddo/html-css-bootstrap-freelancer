@@ -53,6 +53,25 @@
     width: 24px
 }
 
+.svg-cont-social div{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border: 1px  solid #ffff;
+    border-radius: 50%;
+}
+
+.svg-cont-social div svg{
+    width: 20px;
+    aspect-ratio: 1/1;
+}
+
+.star-svg div svg{
+    width: 25px;
+    aspect-ratio: 1/1;
+}
+
+
+
 /******************************
 ///////////BOOTSTRAP CLAS//////
 *******************************/
